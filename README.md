@@ -4,7 +4,10 @@
 
 项目将使用8个碳的搜索结果进行处理
 
-# results文件说明
+## 使用版本
+USPEX_2021.0.1 (python版)
+
+## results文件说明
 BESTIndividuals --- 每一代最好的结构简略数据
 
 BESTgatheredPOSCARS --- 每一代最好的结构晶格坐标
@@ -25,7 +28,7 @@ VarOperators.svg --- 每一代结构来源的占比
 
 OUTPUT.txt --- 运行日志
 
-## 未知
+### 未知
 
 Individuals
 
