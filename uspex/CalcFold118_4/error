@@ -1,0 +1,409 @@
+Fatal error in PMPI_Comm_split: Other MPI error, error stack:
+PMPI_Comm_split(532)................: MPI_Comm_split(comm=0xc400000d, color=5, key=5, new_comm=0x7fff27bbc298) failed
+PMPI_Comm_split(508)................: fail failed
+MPIR_Comm_split_impl(260)...........: fail failed
+MPIR_Get_contextid_sparse_group(676): Too many communicators (16357/16384 free on this process; ignore_id=0)
+Fatal error in PMPI_Comm_split: Other MPI error, error stack:
+PMPI_Comm_split(532)................: MPI_Comm_split(comm=0xc400000d, color=6, key=0, new_comm=0x7ffd94a57998) failed
+PMPI_Comm_split(508)................: fail failed
+MPIR_Comm_split_impl(260)...........: fail failed
+MPIR_Get_contextid_sparse_group(676): Too many communicators (16357/16384 free on this process; ignore_id=0)
+Fatal error in PMPI_Comm_split: Other MPI error, error stack:
+PMPI_Comm_split(532)................: MPI_Comm_split(comm=0xc400000d, color=2, key=1, new_comm=0x7ffd84de1b98) failed
+PMPI_Comm_split(508)................: fail failed
+MPIR_Comm_split_impl(260)...........: fail failed
+MPIR_Get_contextid_sparse_group(676): Too many communicators (16357/16384 free on this process; ignore_id=0)
+Fatal error in PMPI_Comm_split: Other MPI error, error stack:
+PMPI_Comm_split(532)................: MPI_Comm_split(comm=0xc400000d, color=6, key=2, new_comm=0x7ffda2360b18) failed
+PMPI_Comm_split(508)................: fail failed
+MPIR_Comm_split_impl(260)...........: fail failed
+MPIR_Get_contextid_sparse_group(676): Too many communicators (16357/16384 free on this process; ignore_id=0)
+Fatal error in PMPI_Comm_split: Other MPI error, error stack:
+PMPI_Comm_split(532)................: MPI_Comm_split(comm=0xc400000d, color=2, key=3, new_comm=0x7ffc6b3b5098) failed
+PMPI_Comm_split(508)................: fail failed
+MPIR_Comm_split_impl(260)...........: fail failed
+MPIR_Get_contextid_sparse_group(676): Too many communicators (16357/16384 free on this process; ignore_id=0)
+Fatal error in PMPI_Comm_split: Other MPI error, error stack:
+PMPI_Comm_split(532)................: MPI_Comm_split(comm=0xc400000d, color=7, key=1, new_comm=0x7ffde9623718) failed
+PMPI_Comm_split(508)................: fail failed
+MPIR_Comm_split_impl(260)...........: fail failed
+MPIR_Get_contextid_sparse_group(676): Too many communicators (16357/16384 free on this process; ignore_id=0)
+Fatal error in PMPI_Comm_split: Other MPI error, error stack:
+PMPI_Comm_split(532)................: MPI_Comm_split(comm=0xc400000d, color=3, key=3, new_comm=0x7ffe7d4c2218) failed
+PMPI_Comm_split(508)................: fail failed
+MPIR_Comm_split_impl(260)...........: fail failed
+MPIR_Get_contextid_sparse_group(676): Too many communicators (16357/16384 free on this process; ignore_id=0)
+Fatal error in PMPI_Comm_split: Other MPI error, error stack:
+PMPI_Comm_split(532)................: MPI_Comm_split(comm=0xc400000d, color=8, key=0, new_comm=0x7ffc5249d318) failed
+PMPI_Comm_split(508)................: fail failed
+MPIR_Comm_split_impl(260)...........: fail failed
+MPIR_Get_contextid_sparse_group(676): Too many communicators (16357/16384 free on this process; ignore_id=0)
+Fatal error in PMPI_Comm_split: Other MPI error, error stack:
+PMPI_Comm_split(532)................: MPI_Comm_split(comm=0xc400000d, color=3, key=5, new_comm=0x7ffd7ef0cf98) failed
+PMPI_Comm_split(508)................: fail failed
+MPIR_Comm_split_impl(260)...........: fail failed
+MPIR_Get_contextid_sparse_group(676): Too many communicators (16357/16384 free on this process; ignore_id=0)
+Fatal error in PMPI_Comm_split: Other MPI error, error stack:
+PMPI_Comm_split(532)................: MPI_Comm_split(comm=0xc400000d, color=8, key=2, new_comm=0x7ffc5b3be698) failed
+PMPI_Comm_split(508)................: fail failed
+MPIR_Comm_split_impl(260)...........: fail failed
+MPIR_Get_contextid_sparse_group(676): Too many communicators (16357/16384 free on this process; ignore_id=0)
+Fatal error in PMPI_Comm_split: Other MPI error, error stack:
+PMPI_Comm_split(532)................: MPI_Comm_split(comm=0xc400000d, color=4, key=1, new_comm=0x7ffd120fc418) failed
+PMPI_Comm_split(508)................: fail failed
+MPIR_Comm_split_impl(260)...........: fail failed
+MPIR_Get_contextid_sparse_group(676): Too many communicators (16357/16384 free on this process; ignore_id=0)
+Fatal error in PMPI_Comm_split: Other MPI error, error stack:
+PMPI_Comm_split(532)................: MPI_Comm_split(comm=0xc4000016, color=5, key=3, new_comm=0x7ffe14b25a98) failed
+PMPI_Comm_split(508)................: fail failed
+MPIR_Comm_split_impl(260)...........: fail failed
+MPIR_Get_contextid_sparse_group(676): Too many communicators (16357/16384 free on this process; ignore_id=0)
+Fatal error in PMPI_Comm_split: Other MPI error, error stack:
+PMPI_Comm_split(532)................: MPI_Comm_split(comm=0xc400000d, color=4, key=3, new_comm=0x7ffd4a84d298) failed
+PMPI_Comm_split(508)................: fail failed
+MPIR_Comm_split_impl(260)...........: fail failed
+MPIR_Get_contextid_sparse_group(676): Too many communicators (16357/16384 free on this process; ignore_id=0)
+Fatal error in PMPI_Comm_split: Other MPI error, error stack:
+PMPI_Comm_split(532)................: MPI_Comm_split(comm=0xc400000d, color=5, key=4, new_comm=0x7ffd25894b98) failed
+PMPI_Comm_split(508)................: fail failed
+MPIR_Comm_split_impl(260)...........: fail failed
+MPIR_Get_contextid_sparse_group(676): Too many communicators (16357/16384 free on this process; ignore_id=0)
+Fatal error in PMPI_Comm_split: Other MPI error, error stack:
+PMPI_Comm_split(532)................: MPI_Comm_split(comm=0xc4000016, color=0, key=0, new_comm=0x7ffcfb5d8898) failed
+PMPI_Comm_split(508)................: fail failed
+MPIR_Comm_split_impl(260)...........: fail failed
+MPIR_Get_contextid_sparse_group(676): Too many communicators (16357/16384 free on this process; ignore_id=0)
+Fatal error in PMPI_Comm_split: Other MPI error, error stack:
+PMPI_Comm_split(532)................: MPI_Comm_split(comm=0xc400000d, color=5, key=6, new_comm=0x7ffd2a3c2098) failed
+PMPI_Comm_split(508)................: fail failed
+MPIR_Comm_split_impl(260)...........: fail failed
+MPIR_Get_contextid_sparse_group(676): Too many communicators (16357/16384 free on this process; ignore_id=0)
+Fatal error in PMPI_Comm_split: Other MPI error, error stack:
+PMPI_Comm_split(532)................: MPI_Comm_split(comm=0xc400000d, color=0, key=1, new_comm=0x7fff882d1498) failed
+PMPI_Comm_split(508)................: fail failed
+MPIR_Comm_split_impl(260)...........: fail failed
+MPIR_Get_contextid_sparse_group(676): Too many communicators (16357/16384 free on this process; ignore_id=0)
+Fatal error in PMPI_Comm_split: Other MPI error, error stack:
+PMPI_Comm_split(532)................: MPI_Comm_split(comm=0xc400000d, color=5, key=7, new_comm=0x7ffc8fa9fd98) failed
+PMPI_Comm_split(508)................: fail failed
+MPIR_Comm_split_impl(260)...........: fail failed
+MPIR_Get_contextid_sparse_group(676): Too many communicators (6233/16384 free on this process; ignore_id=0)
+Fatal error in PMPI_Comm_split: Other MPI error, error stack:
+PMPI_Comm_split(532)................: MPI_Comm_split(comm=0xc400000d, color=0, key=2, new_comm=0x7ffcf7701518) failed
+PMPI_Comm_split(508)................: fail failed
+MPIR_Comm_split_impl(260)...........: fail failed
+MPIR_Get_contextid_sparse_group(676): Too many communicators (16357/16384 free on this process; ignore_id=0)
+Fatal error in PMPI_Comm_split: Other MPI error, error stack:
+PMPI_Comm_split(532)................: MPI_Comm_split(comm=0xc400000d, color=5, key=8, new_comm=0x7ffd05fbb498) failed
+PMPI_Comm_split(508)................: fail failed
+MPIR_Comm_split_impl(260)...........: fail failed
+MPIR_Get_contextid_sparse_group(676): Too many communicators (0/16384 free on this process; ignore_id=0)
+Fatal error in PMPI_Comm_split: Other MPI error, error stack:
+PMPI_Comm_split(532)................: MPI_Comm_split(comm=0xc400000d, color=0, key=3, new_comm=0x7ffde7e28418) failed
+PMPI_Comm_split(508)................: fail failed
+MPIR_Comm_split_impl(260)...........: fail failed
+MPIR_Get_contextid_sparse_group(676): Too many communicators (16357/16384 free on this process; ignore_id=0)
+Fatal error in PMPI_Comm_split: Other MPI error, error stack:
+PMPI_Comm_split(532)................: MPI_Comm_split(comm=0xc400000d, color=6, key=1, new_comm=0x7fffb2cf2198) failed
+PMPI_Comm_split(508)................: fail failed
+MPIR_Comm_split_impl(260)...........: fail failed
+MPIR_Get_contextid_sparse_group(676): Too many communicators (16357/16384 free on this process; ignore_id=0)
+Fatal error in PMPI_Comm_split: Other MPI error, error stack:
+PMPI_Comm_split(532)................: MPI_Comm_split(comm=0xc400000d, color=0, key=4, new_comm=0x7ffda2d68c98) failed
+PMPI_Comm_split(508)................: fail failed
+MPIR_Comm_split_impl(260)...........: fail failed
+MPIR_Get_contextid_sparse_group(676): Too many communicators (16357/16384 free on this process; ignore_id=0)
+Fatal error in PMPI_Comm_split: Other MPI error, error stack:
+PMPI_Comm_split(532)................: MPI_Comm_split(comm=0xc400000d, color=6, key=3, new_comm=0x7ffd3e733418) failed
+PMPI_Comm_split(508)................: fail failed
+MPIR_Comm_split_impl(260)...........: fail failed
+MPIR_Get_contextid_sparse_group(676): Too many communicators (16357/16384 free on this process; ignore_id=0)
+Fatal error in PMPI_Comm_split: Other MPI error, error stack:
+PMPI_Comm_split(532)................: MPI_Comm_split(comm=0xc400000d, color=0, key=5, new_comm=0x7ffe7d88df18) failed
+PMPI_Comm_split(508)................: fail failed
+MPIR_Comm_split_impl(260)...........: fail failed
+MPIR_Get_contextid_sparse_group(676): Too many communicators (16357/16384 free on this process; ignore_id=0)
+Fatal error in PMPI_Comm_split: Other MPI error, error stack:
+PMPI_Comm_split(532)................: MPI_Comm_split(comm=0xc400000d, color=6, key=5, new_comm=0x7ffd4f2f5c98) failed
+PMPI_Comm_split(508)................: fail failed
+MPIR_Comm_split_impl(260)...........: fail failed
+MPIR_Get_contextid_sparse_group(676): Too many communicators (16357/16384 free on this process; ignore_id=0)
+Fatal error in PMPI_Comm_split: Other MPI error, error stack:
+PMPI_Comm_split(532)................: MPI_Comm_split(comm=0xc400000d, color=0, key=6, new_comm=0x7ffdb66dfd98) failed
+PMPI_Comm_split(508)................: fail failed
+MPIR_Comm_split_impl(260)...........: fail failed
+MPIR_Get_contextid_sparse_group(676): Too many communicators (16357/16384 free on this process; ignore_id=0)
+Fatal error in PMPI_Comm_split: Other MPI error, error stack:
+PMPI_Comm_split(532)................: MPI_Comm_split(comm=0xc400000d, color=6, key=6, new_comm=0x7ffd5cf96118) failed
+PMPI_Comm_split(508)................: fail failed
+MPIR_Comm_split_impl(260)...........: fail failed
+MPIR_Get_contextid_sparse_group(676): Too many communicators (16357/16384 free on this process; ignore_id=0)
+Fatal error in PMPI_Comm_split: Other MPI error, error stack:
+PMPI_Comm_split(532)................: MPI_Comm_split(comm=0xc400000d, color=0, key=7, new_comm=0x7ffeaa5f5618) failed
+PMPI_Comm_split(508)................: fail failed
+MPIR_Comm_split_impl(260)...........: fail failed
+MPIR_Get_contextid_sparse_group(676): Too many communicators (16357/16384 free on this process; ignore_id=0)
+Fatal error in PMPI_Comm_split: Other MPI error, error stack:
+PMPI_Comm_split(532)................: MPI_Comm_split(comm=0xc400000d, color=6, key=7, new_comm=0x7ffdd47be618) failed
+PMPI_Comm_split(508)................: fail failed
+MPIR_Comm_split_impl(260)...........: fail failed
+MPIR_Get_contextid_sparse_group(676): Too many communicators (6233/16384 free on this process; ignore_id=0)
+Fatal error in PMPI_Comm_split: Other MPI error, error stack:
+PMPI_Comm_split(532)................: MPI_Comm_split(comm=0xc400000d, color=0, key=8, new_comm=0x7ffc94a7d918) failed
+PMPI_Comm_split(508)................: fail failed
+MPIR_Comm_split_impl(260)...........: fail failed
+MPIR_Get_contextid_sparse_group(676): Too many communicators (16357/16384 free on this process; ignore_id=0)
+Fatal error in PMPI_Comm_split: Other MPI error, error stack:
+PMPI_Comm_split(532)................: MPI_Comm_split(comm=0xc400000d, color=6, key=8, new_comm=0x7ffcf07dcf98) failed
+PMPI_Comm_split(508)................: fail failed
+MPIR_Comm_split_impl(260)...........: fail failed
+MPIR_Get_contextid_sparse_group(676): Too many communicators (0/16384 free on this process; ignore_id=0)
+Fatal error in PMPI_Comm_split: Other MPI error, error stack:
+PMPI_Comm_split(532)................: MPI_Comm_split(comm=0xc400000d, color=1, key=1, new_comm=0x7ffd1087e598) failed
+PMPI_Comm_split(508)................: fail failed
+MPIR_Comm_split_impl(260)...........: fail failed
+MPIR_Get_contextid_sparse_group(676): Too many communicators (16357/16384 free on this process; ignore_id=0)
+Fatal error in PMPI_Comm_split: Other MPI error, error stack:
+PMPI_Comm_split(532)................: MPI_Comm_split(comm=0xc400000d, color=7, key=0, new_comm=0x7fff941c7598) failed
+PMPI_Comm_split(508)................: fail failed
+MPIR_Comm_split_impl(260)...........: fail failed
+MPIR_Get_contextid_sparse_group(676): Too many communicators (16357/16384 free on this process; ignore_id=0)
+Fatal error in PMPI_Comm_split: Other MPI error, error stack:
+PMPI_Comm_split(532)................: MPI_Comm_split(comm=0xc400000d, color=1, key=2, new_comm=0x7ffc3f797b98) failed
+PMPI_Comm_split(508)................: fail failed
+MPIR_Comm_split_impl(260)...........: fail failed
+MPIR_Get_contextid_sparse_group(676): Too many communicators (16357/16384 free on this process; ignore_id=0)
+Fatal error in PMPI_Comm_split: Other MPI error, error stack:
+PMPI_Comm_split(532)................: MPI_Comm_split(comm=0xc400000d, color=7, key=2, new_comm=0x7ffe876dc118) failed
+PMPI_Comm_split(508)................: fail failed
+MPIR_Comm_split_impl(260)...........: fail failed
+MPIR_Get_contextid_sparse_group(676): Too many communicators (16357/16384 free on this process; ignore_id=0)
+Fatal error in PMPI_Comm_split: Other MPI error, error stack:
+PMPI_Comm_split(532)................: MPI_Comm_split(comm=0xc400000d, color=1, key=3, new_comm=0x7ffdcce50c98) failed
+PMPI_Comm_split(508)................: fail failed
+MPIR_Comm_split_impl(260)...........: fail failed
+MPIR_Get_contextid_sparse_group(676): Too many communicators (16357/16384 free on this process; ignore_id=0)
+Fatal error in PMPI_Comm_split: Other MPI error, error stack:
+PMPI_Comm_split(532)................: MPI_Comm_split(comm=0xc400000d, color=7, key=3, new_comm=0x7fff9c8f2798) failed
+PMPI_Comm_split(508)................: fail failed
+MPIR_Comm_split_impl(260)...........: fail failed
+MPIR_Get_contextid_sparse_group(676): Too many communicators (16357/16384 free on this process; ignore_id=0)
+Fatal error in PMPI_Comm_split: Other MPI error, error stack:
+PMPI_Comm_split(532)................: MPI_Comm_split(comm=0xc400000d, color=1, key=4, new_comm=0x7ffd028e1018) failed
+PMPI_Comm_split(508)................: fail failed
+MPIR_Comm_split_impl(260)...........: fail failed
+MPIR_Get_contextid_sparse_group(676): Too many communicators (16357/16384 free on this process; ignore_id=0)
+Fatal error in PMPI_Comm_split: Other MPI error, error stack:
+PMPI_Comm_split(532)................: MPI_Comm_split(comm=0xc400000d, color=7, key=4, new_comm=0x7fff67e94418) failed
+PMPI_Comm_split(508)................: fail failed
+MPIR_Comm_split_impl(260)...........: fail failed
+MPIR_Get_contextid_sparse_group(676): Too many communicators (16357/16384 free on this process; ignore_id=0)
+Fatal error in PMPI_Comm_split: Other MPI error, error stack:
+PMPI_Comm_split(532)................: MPI_Comm_split(comm=0xc400000d, color=1, key=5, new_comm=0x7fffb9540f98) failed
+PMPI_Comm_split(508)................: fail failed
+MPIR_Comm_split_impl(260)...........: fail failed
+MPIR_Get_contextid_sparse_group(676): Too many communicators (16357/16384 free on this process; ignore_id=0)
+Fatal error in PMPI_Comm_split: Other MPI error, error stack:
+PMPI_Comm_split(532)................: MPI_Comm_split(comm=0xc400000d, color=7, key=5, new_comm=0x7ffc6ca8e418) failed
+PMPI_Comm_split(508)................: fail failed
+MPIR_Comm_split_impl(260)...........: fail failed
+MPIR_Get_contextid_sparse_group(676): Too many communicators (16357/16384 free on this process; ignore_id=0)
+Fatal error in PMPI_Comm_split: Other MPI error, error stack:
+PMPI_Comm_split(532)................: MPI_Comm_split(comm=0xc400000d, color=1, key=6, new_comm=0x7fff1b2bd518) failed
+PMPI_Comm_split(508)................: fail failed
+MPIR_Comm_split_impl(260)...........: fail failed
+MPIR_Get_contextid_sparse_group(676): Too many communicators (16357/16384 free on this process; ignore_id=0)
+Fatal error in PMPI_Comm_split: Other MPI error, error stack:
+PMPI_Comm_split(532)................: MPI_Comm_split(comm=0xc400000d, color=7, key=6, new_comm=0x7fff21394518) failed
+PMPI_Comm_split(508)................: fail failed
+MPIR_Comm_split_impl(260)...........: fail failed
+MPIR_Get_contextid_sparse_group(676): Too many communicators (16357/16384 free on this process; ignore_id=0)
+Fatal error in PMPI_Comm_split: Other MPI error, error stack:
+PMPI_Comm_split(532)................: MPI_Comm_split(comm=0xc400000d, color=1, key=7, new_comm=0x7ffd99ea6a18) failed
+PMPI_Comm_split(508)................: fail failed
+MPIR_Comm_split_impl(260)...........: fail failed
+MPIR_Get_contextid_sparse_group(676): Too many communicators (6233/16384 free on this process; ignore_id=0)
+Fatal error in PMPI_Comm_split: Other MPI error, error stack:
+PMPI_Comm_split(532)................: MPI_Comm_split(comm=0xc400000d, color=7, key=7, new_comm=0x7ffee9662b18) failed
+PMPI_Comm_split(508)................: fail failed
+MPIR_Comm_split_impl(260)...........: fail failed
+MPIR_Get_contextid_sparse_group(676): Too many communicators (16357/16384 free on this process; ignore_id=0)
+Fatal error in PMPI_Comm_split: Other MPI error, error stack:
+PMPI_Comm_split(532)................: MPI_Comm_split(comm=0xc400000d, color=1, key=8, new_comm=0x7ffdeb3c1418) failed
+PMPI_Comm_split(508)................: fail failed
+MPIR_Comm_split_impl(260)...........: fail failed
+MPIR_Get_contextid_sparse_group(676): Too many communicators (0/16384 free on this process; ignore_id=0)
+Fatal error in PMPI_Comm_split: Other MPI error, error stack:
+PMPI_Comm_split(532)................: MPI_Comm_split(comm=0xc400000d, color=7, key=8, new_comm=0x7ffd4aeee498) failed
+PMPI_Comm_split(508)................: fail failed
+MPIR_Comm_split_impl(260)...........: fail failed
+MPIR_Get_contextid_sparse_group(676): Too many communicators (10124/16384 free on this process; ignore_id=0)
+Fatal error in PMPI_Comm_split: Other MPI error, error stack:
+PMPI_Comm_split(532)................: MPI_Comm_split(comm=0xc400000d, color=2, key=0, new_comm=0x7ffd8045c898) failed
+PMPI_Comm_split(508)................: fail failed
+MPIR_Comm_split_impl(260)...........: fail failed
+MPIR_Get_contextid_sparse_group(676): Too many communicators (16357/16384 free on this process; ignore_id=0)
+Fatal error in PMPI_Comm_split: Other MPI error, error stack:
+PMPI_Comm_split(532)................: MPI_Comm_split(comm=0xc400000d, color=8, key=1, new_comm=0x7ffd7ef80318) failed
+PMPI_Comm_split(508)................: fail failed
+MPIR_Comm_split_impl(260)...........: fail failed
+MPIR_Get_contextid_sparse_group(676): Too many communicators (16357/16384 free on this process; ignore_id=0)
+Fatal error in PMPI_Comm_split: Other MPI error, error stack:
+PMPI_Comm_split(532)................: MPI_Comm_split(comm=0xc400000d, color=2, key=2, new_comm=0x7fff5d1e6818) failed
+PMPI_Comm_split(508)................: fail failed
+MPIR_Comm_split_impl(260)...........: fail failed
+MPIR_Get_contextid_sparse_group(676): Too many communicators (16357/16384 free on this process; ignore_id=0)
+Fatal error in PMPI_Comm_split: Other MPI error, error stack:
+PMPI_Comm_split(532)................: MPI_Comm_split(comm=0xc400000d, color=8, key=3, new_comm=0x7ffec585df98) failed
+PMPI_Comm_split(508)................: fail failed
+MPIR_Comm_split_impl(260)...........: fail failed
+MPIR_Get_contextid_sparse_group(676): Too many communicators (16357/16384 free on this process; ignore_id=0)
+Fatal error in PMPI_Comm_split: Other MPI error, error stack:
+PMPI_Comm_split(532)................: MPI_Comm_split(comm=0xc400000d, color=2, key=4, new_comm=0x7ffc3d680b98) failed
+PMPI_Comm_split(508)................: fail failed
+MPIR_Comm_split_impl(260)...........: fail failed
+MPIR_Get_contextid_sparse_group(676): Too many communicators (16357/16384 free on this process; ignore_id=0)
+Fatal error in PMPI_Comm_split: Other MPI error, error stack:
+PMPI_Comm_split(532)................: MPI_Comm_split(comm=0xc400000d, color=8, key=4, new_comm=0x7ffe0c9bd798) failed
+PMPI_Comm_split(508)................: fail failed
+MPIR_Comm_split_impl(260)...........: fail failed
+MPIR_Get_contextid_sparse_group(676): Too many communicators (16357/16384 free on this process; ignore_id=0)
+Fatal error in PMPI_Comm_split: Other MPI error, error stack:
+PMPI_Comm_split(532)................: MPI_Comm_split(comm=0xc400000d, color=2, key=5, new_comm=0x7ffd24ebdb18) failed
+PMPI_Comm_split(508)................: fail failed
+MPIR_Comm_split_impl(260)...........: fail failed
+MPIR_Get_contextid_sparse_group(676): Too many communicators (16357/16384 free on this process; ignore_id=0)
+Fatal error in PMPI_Comm_split: Other MPI error, error stack:
+PMPI_Comm_split(532)................: MPI_Comm_split(comm=0xc400000d, color=8, key=5, new_comm=0x7ffd9dd97798) failed
+PMPI_Comm_split(508)................: fail failed
+MPIR_Comm_split_impl(260)...........: fail failed
+MPIR_Get_contextid_sparse_group(676): Too many communicators (16357/16384 free on this process; ignore_id=0)
+Fatal error in PMPI_Comm_split: Other MPI error, error stack:
+PMPI_Comm_split(532)................: MPI_Comm_split(comm=0xc400000d, color=2, key=6, new_comm=0x7ffe60b65698) failed
+PMPI_Comm_split(508)................: fail failed
+MPIR_Comm_split_impl(260)...........: fail failed
+MPIR_Get_contextid_sparse_group(676): Too many communicators (16357/16384 free on this process; ignore_id=0)
+Fatal error in PMPI_Comm_split: Other MPI error, error stack:
+PMPI_Comm_split(532)................: MPI_Comm_split(comm=0xc400000d, color=8, key=6, new_comm=0x7fff99c22698) failed
+PMPI_Comm_split(508)................: fail failed
+MPIR_Comm_split_impl(260)...........: fail failed
+MPIR_Get_contextid_sparse_group(676): Too many communicators (16357/16384 free on this process; ignore_id=0)
+Fatal error in PMPI_Comm_split: Other MPI error, error stack:
+PMPI_Comm_split(532)................: MPI_Comm_split(comm=0xc400000d, color=2, key=7, new_comm=0x7ffd80bcde98) failed
+PMPI_Comm_split(508)................: fail failed
+MPIR_Comm_split_impl(260)...........: fail failed
+MPIR_Get_contextid_sparse_group(676): Too many communicators (6233/16384 free on this process; ignore_id=0)
+Fatal error in PMPI_Comm_split: Other MPI error, error stack:
+PMPI_Comm_split(532)................: MPI_Comm_split(comm=0xc400000d, color=8, key=7, new_comm=0x7ffcc0f56f18) failed
+PMPI_Comm_split(508)................: fail failed
+MPIR_Comm_split_impl(260)...........: fail failed
+MPIR_Get_contextid_sparse_group(676): Too many communicators (16357/16384 free on this process; ignore_id=0)
+Fatal error in PMPI_Comm_split: Other MPI error, error stack:
+PMPI_Comm_split(532)................: MPI_Comm_split(comm=0xc400000d, color=2, key=8, new_comm=0x7ffeb2e03118) failed
+PMPI_Comm_split(508)................: fail failed
+MPIR_Comm_split_impl(260)...........: fail failed
+MPIR_Get_contextid_sparse_group(676): Too many communicators (0/16384 free on this process; ignore_id=0)
+Fatal error in PMPI_Comm_split: Other MPI error, error stack:
+PMPI_Comm_split(532)................: MPI_Comm_split(comm=0xc400000d, color=8, key=8, new_comm=0x7ffd5e1b2f98) failed
+PMPI_Comm_split(508)................: fail failed
+MPIR_Comm_split_impl(260)...........: fail failed
+MPIR_Get_contextid_sparse_group(676): Too many communicators (16357/16384 free on this process; ignore_id=0)
+Fatal error in PMPI_Comm_split: Other MPI error, error stack:
+PMPI_Comm_split(532)................: MPI_Comm_split(comm=0xc400000d, color=3, key=0, new_comm=0x7ffe52ca7b18) failed
+PMPI_Comm_split(508)................: fail failed
+MPIR_Comm_split_impl(260)...........: fail failed
+MPIR_Get_contextid_sparse_group(676): Too many communicators (16357/16384 free on this process; ignore_id=0)
+Fatal error in PMPI_Comm_split: Other MPI error, error stack:
+PMPI_Comm_split(532)................: MPI_Comm_split(comm=0xc400000d, color=6, key=4, new_comm=0x7ffd6af24f18) failed
+PMPI_Comm_split(508)................: fail failed
+MPIR_Comm_split_impl(260)...........: fail failed
+MPIR_Get_contextid_sparse_group(676): Too many communicators (16357/16384 free on this process; ignore_id=0)
+Fatal error in PMPI_Comm_split: Other MPI error, error stack:
+PMPI_Comm_split(532)................: MPI_Comm_split(comm=0xc400000d, color=3, key=1, new_comm=0x7ffef3951818) failed
+PMPI_Comm_split(508)................: fail failed
+MPIR_Comm_split_impl(260)...........: fail failed
+MPIR_Get_contextid_sparse_group(676): Too many communicators (16357/16384 free on this process; ignore_id=0)
+Fatal error in PMPI_Comm_split: Other MPI error, error stack:
+PMPI_Comm_split(532)................: MPI_Comm_split(comm=0xc400000d, color=3, key=2, new_comm=0x7ffe6dfc3e18) failed
+PMPI_Comm_split(508)................: fail failed
+MPIR_Comm_split_impl(260)...........: fail failed
+MPIR_Get_contextid_sparse_group(676): Too many communicators (16357/16384 free on this process; ignore_id=0)
+Fatal error in PMPI_Comm_split: Other MPI error, error stack:
+PMPI_Comm_split(532)................: MPI_Comm_split(comm=0xc400000d, color=3, key=4, new_comm=0x7ffd4ac3d398) failed
+PMPI_Comm_split(508)................: fail failed
+MPIR_Comm_split_impl(260)...........: fail failed
+MPIR_Get_contextid_sparse_group(676): Too many communicators (16357/16384 free on this process; ignore_id=0)
+Fatal error in PMPI_Comm_split: Other MPI error, error stack:
+PMPI_Comm_split(532)................: MPI_Comm_split(comm=0xc400000d, color=3, key=6, new_comm=0x7fff2b763598) failed
+PMPI_Comm_split(508)................: fail failed
+MPIR_Comm_split_impl(260)...........: fail failed
+MPIR_Get_contextid_sparse_group(676): Too many communicators (16357/16384 free on this process; ignore_id=0)
+Fatal error in PMPI_Comm_split: Other MPI error, error stack:
+PMPI_Comm_split(532)................: MPI_Comm_split(comm=0xc400000d, color=3, key=7, new_comm=0x7fff56212d98) failed
+PMPI_Comm_split(508)................: fail failed
+MPIR_Comm_split_impl(260)...........: fail failed
+MPIR_Get_contextid_sparse_group(676): Too many communicators (6233/16384 free on this process; ignore_id=0)
+Fatal error in PMPI_Comm_split: Other MPI error, error stack:
+PMPI_Comm_split(532)................: MPI_Comm_split(comm=0xc400000d, color=3, key=8, new_comm=0x7fff94441118) failed
+PMPI_Comm_split(508)................: fail failed
+MPIR_Comm_split_impl(260)...........: fail failed
+MPIR_Get_contextid_sparse_group(676): Too many communicators (0/16384 free on this process; ignore_id=0)
+Fatal error in PMPI_Comm_split: Other MPI error, error stack:
+PMPI_Comm_split(532)................: MPI_Comm_split(comm=0xc400000d, color=4, key=0, new_comm=0x7ffdfd8d0718) failed
+PMPI_Comm_split(508)................: fail failed
+MPIR_Comm_split_impl(260)...........: fail failed
+MPIR_Get_contextid_sparse_group(676): Too many communicators (16357/16384 free on this process; ignore_id=0)
+srun: Job step aborted: Waiting up to 62 seconds for job step to finish.
+Fatal error in PMPI_Comm_split: Other MPI error, error stack:
+PMPI_Comm_split(532)................: MPI_Comm_split(comm=0xc400000d, color=4, key=2, new_comm=0x7ffe6f7e2698) failed
+PMPI_Comm_split(508)................: fail failed
+MPIR_Comm_split_impl(260)...........: fail failed
+MPIR_Get_contextid_sparse_group(676): Too many communicators (16357/16384 free on this process; ignore_id=0)
+Fatal error in PMPI_Comm_split: Other MPI error, error stack:
+PMPI_Comm_split(532)................: MPI_Comm_split(comm=0xc400000d, color=4, key=4, new_comm=0x7ffec02f5618) failed
+PMPI_Comm_split(508)................: fail failed
+MPIR_Comm_split_impl(260)...........: fail failed
+MPIR_Get_contextid_sparse_group(676): Too many communicators (16357/16384 free on this process; ignore_id=0)
+Fatal error in PMPI_Comm_split: Other MPI error, error stack:
+PMPI_Comm_split(532)................: MPI_Comm_split(comm=0xc400000d, color=4, key=5, new_comm=0x7ffe4d823718) failed
+PMPI_Comm_split(508)................: fail failed
+MPIR_Comm_split_impl(260)...........: fail failed
+MPIR_Get_contextid_sparse_group(676): Too many communicators (16357/16384 free on this process; ignore_id=0)
+Fatal error in PMPI_Comm_split: Other MPI error, error stack:
+PMPI_Comm_split(532)................: MPI_Comm_split(comm=0xc400000d, color=4, key=6, new_comm=0x7ffcd45e1698) failed
+PMPI_Comm_split(508)................: fail failed
+MPIR_Comm_split_impl(260)...........: fail failed
+MPIR_Get_contextid_sparse_group(676): Too many communicators (16357/16384 free on this process; ignore_id=0)
+Fatal error in PMPI_Comm_split: Other MPI error, error stack:
+PMPI_Comm_split(532)................: MPI_Comm_split(comm=0xc400000d, color=4, key=7, new_comm=0x7ffd3c0dfb98) failed
+PMPI_Comm_split(508)................: fail failed
+MPIR_Comm_split_impl(260)...........: fail failed
+MPIR_Get_contextid_sparse_group(676): Too many communicators (6233/16384 free on this process; ignore_id=0)
+Fatal error in PMPI_Comm_split: Other MPI error, error stack:
+PMPI_Comm_split(532)................: MPI_Comm_split(comm=0xc400000d, color=4, key=8, new_comm=0x7ffcc4fde118) failed
+PMPI_Comm_split(508)................: fail failed
+MPIR_Comm_split_impl(260)...........: fail failed
+MPIR_Get_contextid_sparse_group(676): Too many communicators (0/16384 free on this process; ignore_id=0)
+Fatal error in PMPI_Comm_split: Other MPI error, error stack:
+PMPI_Comm_split(532)................: MPI_Comm_split(comm=0xc400000d, color=5, key=0, new_comm=0x7ffdf76c6b18) failed
+PMPI_Comm_split(508)................: fail failed
+MPIR_Comm_split_impl(260)...........: fail failed
+MPIR_Get_contextid_sparse_group(676): Too many communicators (16357/16384 free on this process; ignore_id=0)
+Fatal error in PMPI_Comm_split: Other MPI error, error stack:
+PMPI_Comm_split(532)................: MPI_Comm_split(comm=0xc400000d, color=5, key=1, new_comm=0x7ffe2f97c418) failed
+PMPI_Comm_split(508)................: fail failed
+MPIR_Comm_split_impl(260)...........: fail failed
+MPIR_Get_contextid_sparse_group(676): Too many communicators (16357/16384 free on this process; ignore_id=0)
+Fatal error in PMPI_Comm_split: Other MPI error, error stack:
+PMPI_Comm_split(532)................: MPI_Comm_split(comm=0xc400000d, color=1, key=0, new_comm=0x7ffe1874c798) failed
+PMPI_Comm_split(508)................: fail failed
+MPIR_Comm_split_impl(260)...........: fail failed
+MPIR_Get_contextid_sparse_group(676): Too many communicators (16357/16384 free on this process; ignore_id=0)
+Fatal error in PMPI_Comm_split: Other MPI error, error stack:
+PMPI_Comm_split(532)................: MPI_Comm_split(comm=0xc400000d, color=5, key=2, new_comm=0x7ffdba22e398) failed
+PMPI_Comm_split(508)................: fail failed
+MPIR_Comm_split_impl(260)...........: fail failed
+MPIR_Get_contextid_sparse_group(676): Too many communicators (16357/16384 free on this process; ignore_id=0)
+slurmstepd: error: *** STEP 2245666.481 ON cd0711 CANCELLED AT 2022-07-08T10:49:56 ***
+srun: error: cd0711: tasks 0-47: Killed
+srun: error: cd0713: tasks 48-95: Killed

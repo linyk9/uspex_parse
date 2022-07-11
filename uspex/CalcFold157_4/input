@@ -1,0 +1,97 @@
+&CONTROL
+
+  calculation  = "vc-relax",
+
+  restart_mode = "from_scratch",
+
+  prefix       = "pp",
+
+  pseudo_dir   = "./",
+
+  outdir       = "./",
+
+  wf_collect   = .false.
+
+  nstep = 250
+
+/
+
+&SYSTEM
+
+  ibrav     = 0 
+
+  nat       = 8
+
+  ntyp      = 1
+
+  ecutwfc   = 40.D0 
+
+  nosym     = .true.
+
+ occupations='smearing'
+
+ degauss=0.02
+
+ smearing='marzari-vanderbilt'
+
+/
+
+&ELECTRONS
+
+  conv_thr    = 1.D-08,
+
+  mixing_beta=0.5,
+
+  electron_maxstep = 250
+
+/
+
+&IONS
+
+  ion_dynamics='bfgs'
+
+/
+
+&CELL
+
+   cell_dynamics='bfgs'
+
+   press = 0.01
+
+   cell_factor=1.5
+
+ /
+
+ATOMIC_SPECIES
+
+C  12. C.pbe-van_bm.upf
+
+CELL_PARAMETERS cubic
+
+ 13.9710  -1.5640  -1.3188
+
+ -0.7298   7.6296  -0.1761
+
+ -0.4246  -0.0640   4.6479
+
+ATOMIC_POSITIONS {crystal} 
+
+C        0.341642     0.458810     0.773642
+
+C        0.718784     1.072224     0.460802
+
+C        0.804544     0.982822     1.006300
+
+C        0.181290     0.595824     0.692251
+
+C        0.424448     0.384240     0.316174
+
+C        0.098433     0.670119     0.149666
+
+C        0.575155     0.229746     0.390288
+
+C        0.947662     0.824254     1.075362
+
+K_POINTS {automatic} 
+
+   2    3    5  0 0 0

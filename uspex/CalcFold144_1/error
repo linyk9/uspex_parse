@@ -1,0 +1,15 @@
+srun: Job 2245666 step creation temporarily disabled, retrying (Requested nodes are busy)
+srun: Job 2245666 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 2245666 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 2245666 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 2245666 step creation still disabled, retrying (Requested nodes are busy)
+srun: Step created for job 2245666
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 93
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 71
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 91
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 95
+srun: Job step aborted: Waiting up to 62 seconds for job step to finish.
+slurmstepd: error: *** STEP 2245666.581 ON cd0711 CANCELLED AT 2022-07-08T21:31:28 ***
+slurmstepd: error: *** STEP 2245666.581 ON cd0711 CANCELLED AT 2022-07-08T21:31:28 ***
+srun: error: cd0713: tasks 48-95: Killed
+srun: error: cd0711: tasks 0-47: Killed

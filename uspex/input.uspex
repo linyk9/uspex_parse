@@ -1,0 +1,40 @@
+{
+    optimizer: {
+        type: GlobalOptimizer
+        target: {
+            type: Crystal
+            compositionSpace: {symbols: [C]
+                               blocks: [[8]]}
+        }
+        optType: enthalpy
+        selection: {
+            type: USPEXClassic
+            popSize: 24
+            bestFrac: 0.6
+            optType: (aging enthalpy)
+            fractions: {
+                heredity: (0.5 0.6 0.5)
+                softmodemutation: (0.2 0.3 0.3)
+		randSym: (0.1 0.15 0.1)
+                randTop: (0.1 0.15 0.1)
+
+            }
+        }
+    }
+    stages: [qe1 qe2 qe3 qe4]
+    numParallelCalcs: 4
+    numGenerations: 20
+    stopCrit: 8
+}
+
+#define qe1
+{type : qe, commandExecutable : 'srun -N 2 -n 96 pw.x', libs: ['./Specific/C.pbe-van_bm.upf'], kresol: 0.16}
+
+#define qe2
+{type : qe, commandExecutable : 'srun -N 2 -n 96 pw.x', libs: ['./Specific/C.pbe-van_bm.upf'], kresol: 0.14}
+
+#define qe3
+{type : qe, commandExecutable : 'srun -N 2 -n 96 pw.x', libs: ['./Specific/C.pbe-van_bm.upf'], kresol: 0.12}
+
+#define qe4
+{type : qe, commandExecutable : 'srun -N 2 -n 96 pw.x', libs: ['./Specific/C.pbe-van_bm.upf'], kresol: 0.10}

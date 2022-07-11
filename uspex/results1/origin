@@ -1,0 +1,214 @@
+0 RandTop None
+1 RandTop None
+2 RandTop None
+3 RandTop None
+4 RandTop None
+5 RandTop None
+6 RandTop None
+7 RandTop None
+8 RandTop None
+9 RandTop None
+10 RandTop None
+11 RandTop None
+12 Softmodemutation 1
+13 Softmodemutation 1
+14 Softmodemutation 1
+15 Softmodemutation 1
+16 Softmodemutation 1
+17 Softmodemutation 1
+18 Softmodemutation 0
+19 Softmodemutation 0
+20 Heredity 4 1
+21 Heredity 4 0
+22 Heredity 0 4
+23 Heredity 1 4
+24 Heredity 0 1
+25 Heredity 1 0
+26 Heredity 1 0
+27 Heredity 4 0
+28 Heredity 1 0
+29 Heredity 0 1
+30 Heredity 0 4
+31 RandTop None
+32 RandTop None
+33 RandTop None
+34 Softmodemutation 0
+35 Softmodemutation 0
+36 Softmodemutation 20
+37 Softmodemutation 20
+38 Softmodemutation 0
+39 Softmodemutation 0
+40 Heredity 1 0
+41 Heredity 20 1
+42 Heredity 0 18
+43 Heredity 0 16
+44 Heredity 20 0
+45 Heredity 20 18
+46 Heredity 16 0
+47 Heredity 0 16
+48 Heredity 20 0
+49 Heredity 18 0
+50 Heredity 1 18
+51 Heredity 16 0
+52 Heredity 16 18
+53 Heredity 20 1
+54 RandTop None
+55 RandTop None
+56 Softmodemutation 49
+57 Softmodemutation 49
+58 Softmodemutation 18
+59 Softmodemutation 20
+60 Softmodemutation 20
+61 Heredity 18 0
+62 Heredity 18 49
+63 Heredity 20 18
+64 Heredity 20 18
+65 Heredity 0 16
+66 Heredity 20 18
+67 Heredity 18 16
+68 Heredity 18 20
+69 Heredity 0 18
+70 Heredity 18 49
+71 Heredity 49 18
+72 Heredity 0 18
+73 Heredity 18 20
+74 Heredity 49 16
+75 RandTop None
+76 RandTop None
+77 Softmodemutation 61
+78 Softmodemutation 62
+79 Softmodemutation 62
+80 Softmodemutation 18
+81 Softmodemutation 61
+82 Softmodemutation 61
+83 Softmodemutation 63
+84 Heredity 61 58
+85 Heredity 58 63
+86 Heredity 62 20
+87 Heredity 56 61
+88 Heredity 62 63
+89 Heredity 62 58
+90 Heredity 63 58
+91 Heredity 61 57
+92 Heredity 56 57
+93 Heredity 68 63
+94 Heredity 61 58
+95 Heredity 18 61
+96 Heredity 61 62
+97 Heredity 68 58
+98 RandTop None
+99 RandTop None
+100 Softmodemutation 95
+101 Softmodemutation 95
+102 Softmodemutation 93
+103 Softmodemutation 93
+104 Softmodemutation 79
+105 Softmodemutation 79
+106 Softmodemutation 79
+107 Heredity 68 79
+108 Heredity 95 79
+109 Heredity 95 58
+110 Heredity 79 58
+111 Heredity 58 95
+112 Heredity 79 95
+113 Heredity 68 58
+114 Heredity 79 81
+115 Heredity 58 79
+116 Heredity 79 95
+117 Heredity 79 58
+118 Heredity 58 79
+119 Heredity 79 95
+120 Heredity 79 95
+121 RandTop None
+122 RandTop None
+123 Softmodemutation 108
+124 Softmodemutation 108
+125 Softmodemutation 108
+126 Softmodemutation 79
+127 Softmodemutation 79
+128 Softmodemutation 79
+129 Softmodemutation 79
+130 Heredity 109 100
+131 Heredity 100 108
+132 Heredity 79 100
+133 Heredity 109 100
+134 Heredity 109 95
+135 Heredity 79 108
+136 Heredity 95 100
+137 Heredity 108 79
+138 Heredity 109 95
+139 Heredity 108 100
+140 Heredity 108 109
+141 Heredity 93 95
+142 Heredity 100 79
+143 Heredity 108 109
+144 RandTop None
+145 RandTop None
+146 Softmodemutation 108
+147 Softmodemutation 108
+148 Softmodemutation 108
+149 Softmodemutation 108
+150 Softmodemutation 125
+151 Softmodemutation 125
+152 Softmodemutation 125
+153 Heredity 108 145
+154 Heredity 125 108
+155 Heredity 63 108
+156 Heredity 108 125
+157 Heredity 63 108
+158 Heredity 125 108
+159 Heredity 108 125
+160 Heredity 63 100
+161 Heredity 125 108
+162 Heredity 125 81
+163 Heredity 108 63
+164 Heredity 108 125
+165 RandTop None
+166 RandTop None
+167 RandTop None
+168 Softmodemutation 125
+169 Softmodemutation 125
+170 Softmodemutation 125
+171 Softmodemutation 125
+172 Softmodemutation 163
+173 Softmodemutation 163
+174 Softmodemutation 163
+175 Softmodemutation 163
+176 Heredity 150 163
+177 Heredity 162 125
+178 Heredity 150 95
+179 Heredity 163 81
+180 Heredity 163 125
+181 Heredity 125 81
+182 Heredity 163 162
+183 Heredity 150 63
+184 Heredity 125 163
+185 Heredity 125 163
+186 Heredity 150 162
+187 Heredity 125 163
+188 Heredity 162 150
+189 RandTop None
+190 RandTop None
+191 Softmodemutation 162
+192 Softmodemutation 162
+193 Softmodemutation 162
+194 Softmodemutation 162
+195 Softmodemutation 81
+196 Softmodemutation 63
+197 Softmodemutation 63
+198 Heredity 162 168
+199 Heredity 162 175
+200 Heredity 63 181
+201 Heredity 162 175
+202 Heredity 162 163
+203 Heredity 181 81
+204 Heredity 163 168
+205 Heredity 168 162
+206 Heredity 168 175
+207 Heredity 168 175
+208 Heredity 163 168
+209 Heredity 162 163
+210 Heredity 175 81
+211 Heredity 162 163
+212 RandTop None
+213 RandTop None
