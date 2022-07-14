@@ -24,3 +24,6 @@ enthalpy(raw)_vs_ID(raw).svg --- 焓-ID图\
 enthalpy(per_atom)_vs_ID(raw).svg --- 每个原子的焓-ID图\
 enthalpy(per_atom)_vs_cellUtility.volume(per_atom).svg --- 每个原子的焓-每个原子所占体积图\
 enthalpy(per_atom)_statistics.svg --- 每个原子的焓统计图
+## 参考文献
+[[1]First principles prediction of amorphous phases using evolutionary algorithms](https://aip.scitation.org/doi/10.1063/1.4955105) \
+[[2]A first principles study of amorphous and crystalline silicon tetraboride](https://www.sciencedirect.com/science/article/pii/S0254058420312888)
