@@ -36,7 +36,18 @@ def main():
     db2.to_csv('.\stableStructures.csv')
     db3.to_csv('.\metastableStructures.csv')
 
-
+def main1():
+    # 1.先画一下焓分布图
+    filename = '.\goodStructures.csv'
+    db = pd.read_csv(filename)
+    enthaply = np.array(db['Enthalpy (eV)'])
+    enthaply /= 8
+    print(enthaply)
+    plt.bar(enthaply, np.ones_like(enthaply), fc = 'k', width = 1e-2)
+    plt.xlabel('Energy/atom(eV)')
+    plt.ylabel('Number Density')
+    plt.yticks([])
+    plt.show()
 
 if __name__ == '__main__':
-    main()
+    main1()
