@@ -3,7 +3,7 @@ import re
 import numpy as np
 import matplotlib.pyplot as plt
 import pandas as pd
-# print(__version__)
+
 def main():
     # 1.获取好的结构,并写入csv
     filename = './uspex/results1/goodStructures'
@@ -47,7 +47,9 @@ def main1():
     plt.xlabel('Energy/atom(eV)')
     plt.ylabel('Number Density')
     plt.yticks([])
+    plt.savefig('./fig/enthalpy(per_atom)_statistics.png')
     plt.show()
+
 
 if __name__ == '__main__':
     main1()
