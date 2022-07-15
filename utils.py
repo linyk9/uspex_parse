@@ -37,5 +37,43 @@ def radialDistributionFunction(pos, step = 0.1):
             y[i] = np.divide(y[i], s_i * N * density)
         else:
             y[i] = 0
-    # print(y)
     return x, y
+
+def POSCARSplit(filename, output = r'.\POSCAR'):
+    '''
+    分割uspex运行出的总POSCAR文件
+    :param filename: 一般是***POSCAR文件
+    :param output: 输出目录
+    :return:
+    '''
+    pass
+
+def readPOSCAR(filename):
+    '''
+    读入POSCAR文件
+    :param filename: POSCAR文件名
+    :return: Angstrom坐标数组(numpy)
+    '''
+    with open(filename, 'r') as f:
+        lines = f.readlines()
+        latticeVectors = []
+        atoms = []
+        for index, line in enumerate(lines):
+            if index in [0, 1, 5, 6, 7]:
+                # 多余行处理
+                continue
+            elif index in [2, 3, 4]:
+                # 晶格参数
+                line = line.replace('\n', '').split(' ')
+                line = [l for l in line if l]
+                latticeVectors.append(line)
+            else:
+                # 晶格坐标
+                line = line.replace('\n', '').split(' ')
+                line = [l for l in line if l]
+                atoms.append(line)
+        latticeVectors = np.array(latticeVectors, dtype = np.float)
+        atoms = np.array(atoms, dtype = np.float)
+    # print(atoms)
+    # print(latticeVectors)
+    return np.matmul(atoms, latticeVectors)

@@ -52,11 +52,12 @@ def main1():
     plt.savefig('./fig/enthalpy(per_atom)_statistics.png')
     plt.show()
 
-
 if __name__ == '__main__':
     # main()
     # main1()
-    pos = np.array([[1,1,1],[0,0,0],[1,0,0],[0,1,0]])
+    # porcarSplit('')
+    pos = readPOSCAR(r'.\POSCAR\EA18\POSCAR')
+    print(pos)
     r, gr = radialDistributionFunction(pos)
     plt.plot(r, gr, lw = '1', c = 'r')
     plt.title('radial distribution function')

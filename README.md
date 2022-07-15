@@ -9,10 +9,10 @@ BESTIndividuals --- 每一代最好的结构简略数据\
 Individuals --- 所有生成结构的简略数据\
 BESTgatheredPOSCARS --- 每一代最好的结构晶格坐标\
 gatheredPOSCARS --- 所有的结构晶格坐标\
-gatheredPOSCARS_unrelaxed ---所有的结构数据坐标（没做结构松弛）\
+gatheredPOSCARS_unrelaxed --- 所有的结构数据坐标（没做结构松弛）\
 goodStructures --- 比较好的结构简略数据\
-goodStructures_POSCARS ---比较好的结构晶格坐标\
-origin ---每一代结构的来源\
+goodStructures_POSCARS --- 比较好的结构晶格坐标\
+origin --- 每一代结构的来源\
 parameters.uspex --- input.uspex源文件\
 OUTPUT.txt --- 运行日志\
 enthalpies_complete.csv --- 所有结构每个结构松弛阶段中的焓
