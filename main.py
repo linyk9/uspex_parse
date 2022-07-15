@@ -55,8 +55,8 @@ def main1():
 if __name__ == '__main__':
     # main()
     # main1()
-    # porcarSplit('')
-    pos = readPOSCAR(r'.\POSCAR\EA18\POSCAR')
+    # POSCARSplit(r'.\uspex\results1\goodStructures_POSCARS')
+    pos = readPOSCAR(r'.\POSCAR\EA114\POSCAR')
     print(pos)
     r, gr = radialDistributionFunction(pos)
     plt.plot(r, gr, lw = '1', c = 'r')

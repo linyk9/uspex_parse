@@ -6,6 +6,10 @@ import numpy as np
 import matplotlib.pyplot as plt
 import pandas as pd
 
+def mkdir(path):
+    if not os.path.exists(path):
+        os.makedirs(path)
+
 def distance(v1, v2):
     '''
     :param v1, v2:要求都是向量(numpy)
@@ -46,7 +50,22 @@ def POSCARSplit(filename, output = r'.\POSCAR'):
     :param output: 输出目录
     :return:
     '''
-    pass
+    with open(filename, 'r') as f:
+        lines = f.readlines()
+        for line in lines:
+            if line[:2] == 'EA':
+                try:
+                    fTmp.close()
+                except:
+                    pass
+                name = line.replace('\n', '')
+                tmpPath = os.path.join(output, rf'{name}')
+                mkdir(tmpPath)
+                fTmp = open(rf'{tmpPath}\POSCAR', 'w')
+            fTmp.write(line)
+        fTmp.close()
+    print('Finished!')
+
 
 def readPOSCAR(filename):
     '''
