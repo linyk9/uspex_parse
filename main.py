@@ -4,6 +4,8 @@ import numpy as np
 import matplotlib.pyplot as plt
 import pandas as pd
 
+from utils import *
+
 def main():
     # 1.获取好的结构,并写入csv
     filename = './uspex/results1/goodStructures'
@@ -52,4 +54,12 @@ def main1():
 
 
 if __name__ == '__main__':
-    main1()
+    # main()
+    # main1()
+    pos = np.array([[1,1,1],[0,0,0],[1,0,0],[0,1,0]])
+    r, gr = radialDistributionFunction(pos)
+    plt.plot(r, gr, lw = '1', c = 'r')
+    plt.title('radial distribution function')
+    plt.xlabel('r')
+    plt.ylabel('g(r)')
+    plt.show()
