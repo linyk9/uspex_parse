@@ -19,7 +19,7 @@ def main():
     columns = ['ID', 'Origin', 'Composition', 'Enthalpy (eV)', 'Volume (A^3)', 'SYMMETRY (N)', 'Structure order', 'Average order', 'Quasientropy']
     db = pd.DataFrame(data = match, columns = columns)
     print(db.head())
-    db.to_csv('.\goodStructures.csv')
+    db.to_csv('.\goodStructures.csv', index = None)
 
     # 2.获取较稳定和亚稳定结构
     stable = 0.025852 # 1 / 2 k_b * t 在300k下为0.025852 eV
@@ -32,11 +32,11 @@ def main():
         if value <= bestEnthalpy + stable:
             db2 = db2.append(db[db.index == index])
 
-        if value <= bestEnthalpy + metastable:
+        if bestEnthalpy + stable <= value <= bestEnthalpy + metastable:
             db3 = db3.append(db[db.index == index])
 
-    db2.to_csv('.\stableStructures.csv')
-    db3.to_csv('.\metastableStructures.csv')
+    db2.to_csv('.\stableStructures.csv', index = None)
+    db3.to_csv('.\metastableStructures.csv', index = None)
 
 def main1():
     # 1.先画一下焓分布图
@@ -55,7 +55,9 @@ def main1():
     POSCARSplit(r'.\uspex\results1\goodStructures_POSCARS')
 
 if __name__ == '__main__':
-    # main()
+    main()
     # main1()
     #
     pass
+    # dirs = os.listdir(r'.\POSCAR')
+    # print(len(dirs), dirs)

@@ -61,9 +61,16 @@ def POSCARSplit(filename, output = r'.\POSCAR'):
                 name = line.replace('\n', '')
                 tmpPath = os.path.join(output, rf'{name}')
                 mkdir(tmpPath)
-                fTmp = open(rf'{tmpPath}\POSCAR', 'w')
-            fTmp.write(line)
-        fTmp.close()
+                if not os.path.isfile(rf'{tmpPath}\POSCAR'):
+                    fTmp = open(rf'{tmpPath}\POSCAR', 'w')
+            try:
+                fTmp.write(line)
+            except:
+                pass
+        try:
+            fTmp.close()
+        except:
+            pass
     print('Finished!')
 
 
