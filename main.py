@@ -54,10 +54,31 @@ def main1():
     # 2.划分一下POSCAR文件
     POSCARSplit(r'.\uspex\results1\goodStructures_POSCARS')
 
+def main2():
+    # 1.把每个结构的r和g(r)算出来先
+    rs = []
+    grs = []
+    db = pd.read_csv('stableStructures.csv', index_col = None)
+    dirs = os.listdir(r'.\POSCAR')
+    for dir in dirs:
+        if int(dir[2:]) in list(db['ID']):
+            pos = readPOSCAR(rf'.\POSCAR\{dir}\POSCAR')
+            r, gr = radialDistributionFunction(pos)
+            rs.append(r)
+            grs.append(gr)
+    # 2.算出平均值
+    r = max(rs, key = lambda x: len(x))
+    gr = np.zeros_like(max(grs, key = lambda x: len(x)))
+    count = np.zeros_like(gr)
+    for g in grs:
+        for index, value in enumerate(g):
+            gr[index] += value
+            count[index] += 1
+    gr = np.divide(gr, count)
+    drawRDF(r, gr)
+
 if __name__ == '__main__':
-    main()
+    # main()
     # main1()
-    #
+    main2()
     pass
-    # dirs = os.listdir(r'.\POSCAR')
-    # print(len(dirs), dirs)

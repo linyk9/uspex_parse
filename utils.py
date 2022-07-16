@@ -113,3 +113,11 @@ def drawRDF(filename):
     plt.xlabel('r')
     plt.ylabel('g(r)')
     plt.show()
+
+def drawRDF(r, gr):
+    # 重载一下吧
+    plt.plot(r, gr, lw = '1', c = 'r')
+    plt.title('radial distribution function')
+    plt.xlabel('r')
+    plt.ylabel('g(r)')
+    plt.show()
