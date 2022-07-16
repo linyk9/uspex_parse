@@ -51,16 +51,11 @@ def main1():
     plt.yticks([])
     plt.savefig('./fig/enthalpy(per_atom)_statistics.png')
     plt.show()
+    # 2.划分一下POSCAR文件
+    POSCARSplit(r'.\uspex\results1\goodStructures_POSCARS')
 
 if __name__ == '__main__':
     # main()
     # main1()
-    # POSCARSplit(r'.\uspex\results1\goodStructures_POSCARS')
-    pos = readPOSCAR(r'.\POSCAR\EA114\POSCAR')
-    print(pos)
-    r, gr = radialDistributionFunction(pos)
-    plt.plot(r, gr, lw = '1', c = 'r')
-    plt.title('radial distribution function')
-    plt.xlabel('r')
-    plt.ylabel('g(r)')
-    plt.show()
+    #
+    pass

@@ -96,3 +96,13 @@ def readPOSCAR(filename):
     # print(atoms)
     # print(latticeVectors)
     return np.matmul(atoms, latticeVectors)
+
+def drawRDF(filename):
+    pos = readPOSCAR(r'.\POSCAR\EA114\POSCAR')
+    print(pos)
+    r, gr = radialDistributionFunction(pos)
+    plt.plot(r, gr, lw = '1', c = 'r')
+    plt.title('radial distribution function')
+    plt.xlabel('r')
+    plt.ylabel('g(r)')
+    plt.show()
