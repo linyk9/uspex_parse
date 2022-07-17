@@ -2,9 +2,11 @@ import os
 import re
 import math
 from decimal import Decimal
+from functools import singledispatch
 import numpy as np
 import matplotlib.pyplot as plt
 import pandas as pd
+
 
 def mkdir(path):
     if not os.path.exists(path):
@@ -104,20 +106,30 @@ def readPOSCAR(filename):
     # print(latticeVectors)
     return np.matmul(atoms, latticeVectors)
 
-def drawRDF(filename):
-    pos = readPOSCAR(r'.\POSCAR\EA114\POSCAR')
-    print(pos)
+@singledispatch
+def drawRDF(arg):
+    print('未知类型错误')
+
+@drawRDF.register(str)
+def _(filename):
+    # filename = arg
+    pos = readPOSCAR(filename)
+    # print(pos)
     r, gr = radialDistributionFunction(pos)
     plt.plot(r, gr, lw = '1', c = 'r')
     plt.title('radial distribution function')
     plt.xlabel('r')
     plt.ylabel('g(r)')
+    print(np.sum(r * 0.1))
     plt.show()
 
-def drawRDF(r, gr):
+@drawRDF.register(tuple)
+def _(arg):
     # 重载一下吧
+    r, gr = arg[0], arg[1]
     plt.plot(r, gr, lw = '1', c = 'r')
     plt.title('radial distribution function')
     plt.xlabel('r')
     plt.ylabel('g(r)')
+    print(np.sum(r * 0.1))
     plt.show()

@@ -75,10 +75,13 @@ def main2():
             gr[index] += value
             count[index] += 1
     gr = np.divide(gr, count)
-    drawRDF(r, gr)
+    drawRDF((r, gr))
+
 
 if __name__ == '__main__':
     # main()
     # main1()
-    main2()
+    # main2()
     pass
+    drawRDF(r'.\POSCAR\EA1\POSCAR')
+    # print(type(np.array([])))
