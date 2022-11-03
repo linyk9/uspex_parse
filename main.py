@@ -59,10 +59,10 @@ def main2():
     rs = []
     grs = []
     db = pd.read_csv('stableStructures.csv', index_col = None)
-    dirs = os.listdir(r'.\POSCAR')
+    dirs = os.listdir(r'.\POSCAR2')
     for dir in dirs:
         if int(dir[2:]) in list(db['ID']):
-            pos = readPOSCAR(rf'.\POSCAR\{dir}\POSCAR')
+            pos = readPOSCAR(rf'.\POSCAR2\{dir}\POSCAR')
             r, gr = radialDistributionFunction(pos)
             rs.append(r)
             grs.append(gr)
@@ -75,7 +75,7 @@ def main2():
             gr[index] += value
             count[index] += 1
     gr = np.divide(gr, count)
-    drawRDF((r, gr))
+    drawRDF((r, gr, 'all_RDF'))
 
 
 if __name__ == '__main__':
@@ -83,5 +83,7 @@ if __name__ == '__main__':
     # main1()
     # main2()
     pass
-    drawRDF(r'.\POSCAR\EA1\POSCAR')
+    # drawRDF(r'.\POSCAR\EA1\POSCAR')
+    # drawRDF(0, [r'.\dir_0.1\UCell_1_8.vasp'], True)
+    drawRDFs(r'.\dir_0.1')
     # print(type(np.array([])))
