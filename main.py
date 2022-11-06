@@ -83,7 +83,5 @@ if __name__ == '__main__':
     # main1()
     # main2()
     pass
-    # drawRDF(r'.\POSCAR\EA1\POSCAR')
-    # drawRDF(0, [r'.\dir_0.1\UCell_1_8.vasp'], True)
-    drawRDFs(r'.\dir_0.1')
-    # print(type(np.array([])))
+    drawRDFs(r'.\c8', True)
+    drawBADFs(r'.\c8', True)
