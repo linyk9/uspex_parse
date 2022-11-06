@@ -11,7 +11,7 @@ def mkdir(path):
     if not os.path.exists(path):
         os.makedirs(path)
 
-def POSCARSplit(filename, output = r'./POSCAR'):
+def POSCARSplit(filename, output = r'.\POSCAR'):
     '''
     分割uspex运行出的总POSCAR文件
     :param filename: 一般是***POSCAR文件
@@ -139,7 +139,7 @@ def radialDistributionFunction(pos, step = 0.01, maxDistance = 10):
     print(f'integral={sum_y}(N - 1)')
     return x, y
 
-def bondAngleDistributionFunction(pos, step = 0.01, maxDistance = 10):
+def bondAngleDistributionFunction(pos, step = 0.01, maxDistance = 2.5):
     '''
     :param pos: 三维坐标(x,3)(numpy)
     :param step: 距离间隔
