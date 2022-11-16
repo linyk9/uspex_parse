@@ -45,7 +45,7 @@ def readPOSCAR(filename):
     '''
     读入POSCAR文件
     :param filename: POSCAR文件名
-    :return: Angstrom坐标数组(numpy)
+    :return: Angstrom坐标数组(numpy), crystal坐标数组(numpy)
     '''
     with open(filename, 'r') as f:
         lines = f.readlines()
@@ -67,7 +67,7 @@ def readPOSCAR(filename):
                 atoms.append(line)
         latticeVectors = np.array(latticeVectors, dtype = np.float)
         atoms = np.array(atoms, dtype = np.float)
-    return np.matmul(atoms, latticeVectors)
+    return np.matmul(atoms, latticeVectors), atoms
 
 def distance(p1, p2):
     '''
@@ -94,11 +94,13 @@ def bondAngleCompute(p1, p2, p3):
     # p12 = p1 - p2
     # p23 = p2 - p3
     top = np.dot(p1 - p2, p1 - p3) # 余弦值分子
-    bot = distance(p1, p2) * distance(p1, p3)# 余弦值分母
-    if top == bot:
+    bot = distance(p1, p2) * distance(p1, p3) # 余弦值分母
+    if top / bot >= 1:
+        return 0
+    elif top / bot <= -1:
         return 180
     else:
-        return 180 - np.arccos(top / bot) * 57.296
+        return np.arccos(top / bot) * 57.296
 
 def radialDistributionFunction(pos, step = 0.01, maxDistance = 10):
     '''
@@ -158,6 +160,7 @@ def bondAngleDistributionFunction(pos, step = 0.01, maxDistance = 2.5):
                 if j != i and k != i and distance(pos[i], pos[j]) <= maxDistance and distance(pos[i], pos[k]) <= maxDistance:
                     bondAngle = bondAngleCompute(pos[i], pos[j], pos[k])
                     ad[int(bondAngle / step)] += 1
+                    print(i, j, k, pos[i], pos[j], pos[k], bondAngle)
 
     return x, ad
 
@@ -201,7 +204,9 @@ def drawBADF(type = 0, arg = [], isPrint = False):
     '''
     if type == 0:
         filename = arg[0]
-        pos = readPOSCAR(filename)
+        pos, pos_crystal = readPOSCAR(filename)
+        print(pos)
+        print(pos_crystal)
         maxdis = 10
         step = 0.01
         ba, ad = bondAngleDistributionFunction(pos, step, maxdis)

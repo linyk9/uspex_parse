@@ -83,5 +83,8 @@ if __name__ == '__main__':
     # main1()
     # main2()
     pass
-    drawRDFs(r'.\c8', False)
-    drawBADFs(r'.\c8', False)
+    # drawRDFs(r'.\c8', False)
+    # drawBADFs(r'.\c8', False)
+    # print(distance(np.array([0.74775,0.81649,4.59397]), np.array([1.50980,0.57240,3.47602])))
+    # print(np.arccos(np.linspace(-1,1)))
+    drawBADF(arg = [r'.\dir_0.01\UCell_2_1.vasp'], isPrint = True)
