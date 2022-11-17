@@ -102,6 +102,15 @@ def bondAngleCompute(p1, p2, p3):
     else:
         return np.arccos(top / bot) * 57.296
 
+def gaussian(x, mu, sigma):
+    '''
+    :param x : 计算高斯分布
+    :param mu :
+    :param sigma :
+    :return:
+    '''
+    return np.exp(-np.power((x - mu), 2) / 2 / np.power(sigma, 2)) / sigma / np.sqrt(2 * np.pi)
+
 def radialDistributionFunction(pos, step = 0.01, maxDistance = 10):
     '''
     :param pos: 三维坐标(x, 3)(numpy)
@@ -141,7 +150,7 @@ def radialDistributionFunction(pos, step = 0.01, maxDistance = 10):
     print(f'integral={sum_y}(N - 1)')
     return x, y
 
-def bondAngleDistributionFunction(pos, step = 0.01, maxDistance = 2.5):
+def bondAngleDistributionFunction(pos, step = 0.01, maxDistance = 2.5, sigma = 0.5):
     '''
     :param pos: 三维坐标(x,3)(numpy)
     :param step: 距离间隔
@@ -152,17 +161,29 @@ def bondAngleDistributionFunction(pos, step = 0.01, maxDistance = 2.5):
     N = pos.shape[0]
 
     x = np.arange(start = 0, stop = 180 + step, step = step)
-    ad = np.zeros_like(x)
+    ad = np.zeros_like(x, dtype= np.float)
+    tmp_angle = []
 
     for i in range(N):
         for j in range(N - 1):
             for k in range(j + 1, N):
                 if j != i and k != i and distance(pos[i], pos[j]) <= maxDistance and distance(pos[i], pos[k]) <= maxDistance:
                     bondAngle = bondAngleCompute(pos[i], pos[j], pos[k])
-                    ad[int(bondAngle / step)] += 1
+                    tmp_angle.append(bondAngle)
+                    # ad[int(bondAngle / step)] += 1
                     print(j + 1, i + 1, k + 1, bondAngle)
                     # print(pos[i], pos[j], pos[k])
+    tmp_angle.sort()
+    print(tmp_angle)
+    for i in range(len(tmp_angle)):
+        if (i < len(tmp_angle) - 1 and tmp_angle[i + 1] - tmp_angle[i] <= sigma) or (i > 0 and tmp_angle[i] - tmp_angle[i - 1] <= sigma):
+            for j in range(len(x)):
+                # print(gaussian(x[j], tmp_angle[i], sigma))
+                ad[j] += gaussian(x[j], tmp_angle[i], sigma)
+        else:
+            ad[int(tmp_angle[i] / step)] += 1
 
+    # print(ad)
     return x, ad
 
 
@@ -197,7 +218,7 @@ def drawRDFs(dir, isPrint = False):
         except:
             print(f'{d}文件处理失败\n')
 
-def drawBADF(type = 0, arg = [], isPrint = False, maxdistance = 2.5):
+def drawBADF(type = 0, arg = [], isPrint = False, maxdistance = 2.5, sigma = 0.5):
     '''
     :param type: 0代表传入POSCAR文件计算；1代表直接给ba和badf计算
     :param arg: 列表变量；0表示传入文件名；1表示传入ba，badf，保存的文件名
