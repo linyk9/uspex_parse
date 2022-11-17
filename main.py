@@ -87,4 +87,7 @@ if __name__ == '__main__':
     # drawBADFs(r'.\c8', False)
     # print(distance(np.array([0.74775,0.81649,4.59397]), np.array([1.50980,0.57240,3.47602])))
     # print(np.arccos(np.linspace(-1,1)))
-    drawBADF(arg = [r'.\dir_0.01\UCell_2_1.vasp'], isPrint = True)
+    # drawRDF(arg = [r'.\dir_0.01\UCell_2_1.vasp'], isPrint = True)
+    drawBADF(arg = [r'.\dir_0.01\UCell_2_1.vasp'], isPrint = True, maxdistance = 1.5)
+    # a = bondAngleCompute(np.array([-0.07872364,2.83768733, -0.01717433]), np.array([-1.04155749,  2.48134235, -1.01966205]), np.array([1.89137303, 3.18453869, 0.98552189]))
+    # print(a)

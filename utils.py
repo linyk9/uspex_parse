@@ -160,12 +160,13 @@ def bondAngleDistributionFunction(pos, step = 0.01, maxDistance = 2.5):
                 if j != i and k != i and distance(pos[i], pos[j]) <= maxDistance and distance(pos[i], pos[k]) <= maxDistance:
                     bondAngle = bondAngleCompute(pos[i], pos[j], pos[k])
                     ad[int(bondAngle / step)] += 1
-                    print(i, j, k, pos[i], pos[j], pos[k], bondAngle)
+                    print(j + 1, i + 1, k + 1, bondAngle)
+                    # print(pos[i], pos[j], pos[k])
 
     return x, ad
 
 
-def drawRDF(type = 0, arg = [], isPrint = False):
+def drawRDF(type = 0, arg = [], isPrint = False, masdistance = 10):
     '''
     :param type: 0代表传入POSCAR文件计算；1代表直接给r和gr计算
     :param arg: 列表变量；0表示传入文件名；1表示传入r，gr，保存的文件名
@@ -173,10 +174,10 @@ def drawRDF(type = 0, arg = [], isPrint = False):
     '''
     if type == 0:
         filename = arg[0]
-        pos = readPOSCAR(filename)
-        maxdis = 10
+        pos, pos_crystal = readPOSCAR(filename)
+        # maxdis = 10
         step = 0.01
-        r, gr = radialDistributionFunction(pos, step, maxdis)
+        r, gr = radialDistributionFunction(pos, step, masdistance)
     else:
         r, gr, filename = arg[0], arg[1], arg[2]
     plt.plot(r, gr, lw = '1', c = 'r')
@@ -196,7 +197,7 @@ def drawRDFs(dir, isPrint = False):
         except:
             print(f'{d}文件处理失败\n')
 
-def drawBADF(type = 0, arg = [], isPrint = False):
+def drawBADF(type = 0, arg = [], isPrint = False, maxdistance = 2.5):
     '''
     :param type: 0代表传入POSCAR文件计算；1代表直接给ba和badf计算
     :param arg: 列表变量；0表示传入文件名；1表示传入ba，badf，保存的文件名
@@ -207,9 +208,9 @@ def drawBADF(type = 0, arg = [], isPrint = False):
         pos, pos_crystal = readPOSCAR(filename)
         print(pos)
         print(pos_crystal)
-        maxdis = 10
-        step = 0.01
-        ba, ad = bondAngleDistributionFunction(pos, step, maxdis)
+        # maxdis = 10
+        step = 1
+        ba, ad = bondAngleDistributionFunction(pos, step, maxdistance)
     else:
         ba, ad, filename = arg[0], arg[1], arg[2]
     plt.plot(ba, ad, lw = '1', c = 'r')
